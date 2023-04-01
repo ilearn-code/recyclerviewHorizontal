@@ -1,20 +1,16 @@
 package com.example.myapplication;
 
-import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import java.lang.reflect.Array;
-import java.util.ArrayList;
 import java.util.List;
 
-public class Adapter
-        extends RecyclerView.Adapter<Adapter.MyView> {
+public class adapter
+        extends RecyclerView.Adapter<adapter.MyView> {
 
     // List with String type
     private List<String> list;
@@ -40,7 +36,7 @@ public class Adapter
 
     // Constructor for adapter class
     // which takes a list of String type
-    public Adapter(List<String> horizontalList) {
+    public adapter(List<String> horizontalList) {
         this.list = horizontalList;
     }
 

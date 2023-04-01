@@ -13,6 +13,8 @@ import java.util.ArrayList;
 public class MainActivity extends AppCompatActivity {
     // Recycler View object
     RecyclerView recyclerView;
+    RecyclerView recyclerView2;
+    RecyclerView recyclerView3;
 
     // Array list for recycler view data source
     ArrayList<String> source;
@@ -21,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
     RecyclerView.LayoutManager RecyclerViewLayoutManager;
 
     // adapter class object
-    Adapter adapter;
+    adapter2 adapter;
 
     // Linear Layout Manager
     LinearLayoutManager HorizontalLayout;
@@ -50,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
 
         // calling constructor of adapter
         // with source list as a parameter
-        adapter = new Adapter(source);
+        adapter = new adapter2(source);
 
         // Set Horizontal Layout Manager
         // for Recycler view
