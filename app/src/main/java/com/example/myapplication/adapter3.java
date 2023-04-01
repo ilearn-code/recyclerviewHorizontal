@@ -52,7 +52,7 @@ public class adapter3
         View itemView
                 = LayoutInflater
                 .from(parent.getContext())
-                .inflate(R.layout.item,
+                .inflate(R.layout.item3,
                         parent,
                         false);
 
